@@ -1,5 +1,4 @@
 import React from 'react'
-import {hot} from 'react-hot-loader'
 
 import {TextAnnotator, TokenAnnotator} from '../../src'
 
@@ -106,4 +105,4 @@ class App extends React.Component<any, any> {
   }
 }
 
-export default hot(module)(App)
+export default App
